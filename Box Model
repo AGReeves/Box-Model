@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Page title</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css"></link>
+
+	<!--Meta data set below -->
+	<meta charset="UTF-8">
+	<meta name="Box Model" content="content">
+	<meta name="keywords" content="HTML CSS & JavaScript">
+	<meta name="Ash" content="Reeves">
+	<meta name="viewport" content="width=device-width, intital-scale=1.0">
+</head>
+
+<body>
+	<!--menu system below -->
+<div id="Menu">
+	<a href="Index.html"><button class="button">Home</button></a>
+	<a href="Page2.html"><button class="button">Page Two</button></a>
+	<a href="Table.html"><button class="button">Table</button></a>
+	<a href="Flex.html"><button class="button">Flex</button></a>
+	<a href="Grid.html"><button class="button">Grid</button></a>
+</div>
+	
+<div id="Container">
+
+	<div id="box1">
+		<p>box 1</p>
+		
+	</div>
+	
+	<div id="box2">
+		<p>box 2</p>
+	</div>	
+	
+</div>
+
+<div id="Footer">
+	<p>Created by A.G Reeves &#9400;</p>
+</div>
+
+</body>
+
+</html>
