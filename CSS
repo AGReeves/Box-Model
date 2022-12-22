@@ -1,0 +1,127 @@
+body{
+	background-color: #f0dc82;
+}
+
+/*class for button*/
+.button{
+	background-color: #d1d1e0;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	color: #black;
+	padding: 15px 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	float: center;
+	height: 35px;
+	width: 120px;
+	cursor: pointer;
+}
+
+/*class for button*/
+.button:hover{
+	background-color: #8686ac;
+}
+
+/*ID for Menu*/
+#Menu{
+	position: relative;
+	background-color: #ffaa80;
+	height: 55px;
+	color: #b0e0e6;
+	width: 1050px;
+	margin: auto;
+	padding-top: 10px;
+	top: 50px;
+	text-align: center;
+	border: solid #fff 2px;
+	border-bottom-width: 1px;
+}
+
+#Container{
+	position: relative;
+	background-color: #d9e3e9;
+	height: 1050px;
+	color: #b0e0e6;
+	width: 1050px;
+	margin: auto;
+	padding-top: 10px;
+	top: 50px;
+	text-align: center;
+	border: solid #fff 2px;
+	border-bottom-width: 1px;
+}
+
+#Footer{
+	position: relative;
+	margin: auto;
+	background-color: #177847;
+	width: 1050px;
+	height: 50px;
+	text-align: center;
+	font-family: Tahoma;
+	border: solid #fff 2px;
+}
+
+/*new style for p tags*/
+p{
+	color: #000000;
+	font-size: 16pt;
+}
+
+/*new style for h1 tags*/
+h1{
+	color: #000000;
+}
+
+/*ID for box 1*/
+#box1{
+/*	height: 350px;*/
+	width: 850px;
+	margin: auto;
+	padding: 25px;
+	background-color: #ffffff;
+	border: solid 4px #000000;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*ID for box 1*/
+#box2{
+/*	height: 350px;*/
+	width: 850px;
+	margin: auto;
+	padding: 25px;
+	background-color: #ffffff;
+	border: solid 4px #000000;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.box1{
+	flex: 2;
+	/*order can be used to arrange boxs*/
+}
+
+.box2{
+	flex: 1;
+	/*order can be used to arrange boxs*/
+}
+
+.box3{
+	flex: 1;
+	/*order can be used to arrange boxs*/
+}
+
+.box5{
+	flex: 1;
+}
+
+.box6{
+	flex: 1;
+}
+
+.box7{
+	flex: 2;
+}
